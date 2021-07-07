@@ -7,7 +7,7 @@ int main()
     cout << "Enter Inches to Convert ::";
     cin >> i;
 
-    y =i / 432;
+    y = i / 432;
     i = i % 432;
     f = i / 12;
     i = i % 12;
