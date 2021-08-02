@@ -7,7 +7,7 @@ int main()
      char str[100], str1[100], temp;
      int i = 0, j = 0;
 
-     cout << "\nEnter any String :: ";
+     cout << "\nEnter any String : ";
      cin >> str;
 
      strcpy(str1, str);
@@ -21,7 +21,7 @@ int main()
        i++;
        j--;
     }
-     cout << "\nAfter Reversing, String [ "<<str1<<" ]  is :: [ "<<str<<" ]\n";
+     cout << "\nAfter Reversing, String [ "<<str1<<" ]  is : [ "<<str<<" ]\n";
 
      return 0;
 }
