@@ -5,7 +5,7 @@ int main()
 {
     int n, no, a = 0;
 
-    cout << "Enter any positive integer :: ";
+    cout << "Enter any positive integer : ";
     cin >> n;
 
     no = n;
