@@ -6,10 +6,10 @@ void reverse(const string& a);
 int main()
 {
     string str;
-    cout << "\nPlease Enter any string :: ";
+    cout << "\nPlease Enter any string : ";
     getline(cin, str);
 
-    cout<<"\nReverse of String [ "<<str<<" ] is :: ";
+    cout<<"\nReverse of String [ "<<str<<" ] is : ";
     reverse(str);
 
     return 0;
